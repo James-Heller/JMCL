@@ -24,6 +24,12 @@
                             <span>版本列表</span>
                         </template>
                     </el-menu-item>
+                    <el-menu-item index="/jvm-version">
+                        <template #title>
+                            <el-icon></el-icon>
+                            <span>JVM 版本</span>
+                        </template>
+                    </el-menu-item>
                 </el-menu>
             </el-aside>
             <el-main>
