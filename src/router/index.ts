@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 import MainView from "../views/MainView.vue";
 import VersionsView from "../components/VersionsView.vue";
 import StartGameView from "../components/StartGameView.vue";
+import JVMVersion from "../components/JVMVersion.vue";
 
 const routes: RouteRecordRaw[] = [
     {
@@ -18,6 +19,11 @@ const routes: RouteRecordRaw[] = [
                 name: 'Versions',
                 path: '/versions',
                 component: VersionsView
+            },
+            {
+                name: 'JVM-Version',
+                path: '/jvm-version',
+                component: JVMVersion
             }
         ]
     }

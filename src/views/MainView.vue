@@ -1,6 +1,6 @@
 <template>
     <el-container id="container">
-        <el-header id="main-header">
+        <el-header id="main-header" data-tauri-drag-region>
             <h1>JMCL</h1>
             <el-avatar id="user-avatar" shape="square" :size="40"></el-avatar>
         </el-header>
@@ -76,7 +76,6 @@ const handleCloseMenu = (key: string, path: string[]) => {
     background: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
-    flex-direction: column;
     overflow: hidden;
     /* 防止滚动条 */
     box-sizing: border-box;

@@ -13,8 +13,11 @@
     "windows": [
       {
         "title": "JMCL",
-        "width": 1024,
-        "height": 600
+        "width": 1240,
+        "height": 600,
+        "resizable": true,
+        "center": true,
+        "decorations": false
       }
     ],
     "security": {
