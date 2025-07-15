@@ -1,5 +1,3 @@
-
-
 #[tauri::command]
 pub fn has_minecraft_folder() -> bool {
     let current_dir = std::env::current_dir().unwrap();
